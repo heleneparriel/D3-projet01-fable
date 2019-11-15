@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Libre+Caslon+Text|Open+Sans|Poppins:400,700,800|Roboto+Slab|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+
+header {
+font-family: 'Amatic SC', cursive;
+}
+
+header h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+
+#fable01 h2 {
+  font-size: 3em ;
+  font-family: 'Aclonica', sans-serif;
+  color: #ae5828;
+  border-top: 5px solid #ae5828;
+  border-bottom: 4px solid #ae5828;
+  padding: 30px 50px 40px;
+  text-align: center;
+}
+
+#fable01 p {
+  font-family: 'Libre Caslon Text', serif;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: #ae5828;
+}
+
+#fable01 .fable-moral {
+    font-size: 2em ;
+}
+
+
+
+
+#fable02 h2 {
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+  color: #f52f30;
+}
+
+#fable02 p {
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 1.5em;
+  color: black;
+}
+
+#fable02 .fable-moral {
+    font-size: 2em ;
+}
+
+
+
+
+#fable03 h2 {
+  font-size: 4em ;
+  font-family: 'Satisfy';
+  color: white;
+}
+
+#fable03 p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.5em;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 50vh;
+  padding: 1em;
+  background-color: #ae5828;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#fable01 {
+  min-height: 60vh;
+  background-color: black;
+  overflow: hidden;
+  padding: 30px 50px 40px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 p {
+  max-width: 640px;
+  text-align: left;
+  letter-spacing: 0.25em;
+  line-height: 2;
+}
+
+
+
+#fable02 {
+  min-height: 90vh;
+  background: #6b7b00 url('images/image02.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 40px;
+}
+
+#fable02 .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+
+
+
+#fable03 {
+  overflow: hidden;
+  background: #d83433 url('images/image05.jpg') left no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px 40px;
+  align-items: flex-end;
+  text-align: right;
+}
+
+
+#fable03 .main-content {
+    max-width: 480px;
+}
+
+
+#fable03 .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 42px;
+  margin: 6px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
